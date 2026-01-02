@@ -1,0 +1,20 @@
+[project]
+name = "saarthi-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-cloud-texttospeech>=2.33.0",
+    "gradio>=6.2.0",
+    "groq>=1.0.0",
+    "gtts>=2.5.4",
+    "langchain>=1.2.0",
+    "langchain-google-genai>=4.1.2",
+    "langgraph>=1.0.5",
+    "opencv-python>=4.12.0.88",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.1",
+    "speechrecognition>=3.14.5",
+]
